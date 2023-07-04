@@ -31,5 +31,5 @@ def scan_dir(url, wordlist):
 
 if __name__ == "__main__":
     url = input("Enter the URL to scan: ")
-    wordlist = "ReMake_GoBuster\Wordlist.txt"
+    wordlist = "Wordlist.txt"
     scan_dir(url, wordlist)
